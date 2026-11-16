@@ -1,0 +1,17 @@
+{
+  "name": "data-dictionary-compiler",
+  "version": "1.0.0",
+  "description": "数据字典编译器：规范化字段定义、生成验证规则与下游产物清单、校验版本兼容性",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
